@@ -22,6 +22,7 @@ import subprocess # To execute shell commands
 
 LANG_TO_CODE = {
     "english": "en-US",
+    "_eng": "en-US",
     "icelandic": "is-is"
 }
 
