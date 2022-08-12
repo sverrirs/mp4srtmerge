@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 ## Installation
-The script comes with a shell integration for Windows Explorer. Edit the associated install.reg file and update paths to both your Python installation and the location of the merge.py file on your disk. 
+The script comes with a shell integration for Windows Explorer. Edit the associated `install.reg` file and update paths to both your Python installation and the location of the merge.py file on your disk. 
 
 Then merge the registry file into your Windows registry.
 
