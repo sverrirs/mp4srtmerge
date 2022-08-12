@@ -14,10 +14,10 @@ Windows Registry Editor Version 5.00
 @="Merge this file only"
 
 [HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\mp4submergetoplevel\shell\a_mergeaction\command]
-@="C:\\Python310\\python.exe \"E:\\git\\mp4srtmerge\\merge.py\" -i \"%1\""
+@="C:\\Python310\\python.exe \"E:\\git\\mp4srtmerge\\src\\merge.py\" -i \"%1\""
 
 [HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\mp4submergetoplevel\shell\b_mergeaction]
 @="Merge all in folder"
 
 [HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\mp4submergetoplevel\shell\b_mergeaction\command]
-@="C:\\Python310\\python.exe \"E:\\git\\mp4srtmerge\\merge.py\" -i \"%1\" -d"
+@="C:\\Python310\\python.exe \"E:\\git\\mp4srtmerge\\src\\merge.py\" -i \"%1\" -d"
