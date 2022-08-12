@@ -95,7 +95,6 @@ def execute_mp4box(working_dir, mp4file, srt_files):
     my_env['PYTHONIOENCODING'] = 'utf-8'
 
     # Run the app and collect the output
-    print(str(prog_args))
     ret = subprocess.Popen(prog_args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, universal_newlines=True, env=my_env)
     try:
         while True:
