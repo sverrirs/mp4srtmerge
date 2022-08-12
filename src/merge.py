@@ -139,6 +139,9 @@ def run_single_mp4(mp4file, working_dir):
     srt_files = findSrtFiles(working_dir, mp4file.stem)
     if( srt_files is None or len(srt_files) <= 0):
         return 0 # No subs found, exit without error
+
+    print( "Merging {0} subtitle file(s) into video {1}".format(len(srt_files), mp4file.name))
+    [print("   > {0}".format(srt["path"])) for srt in srt_files]
     
     # Merge the SRT files into a new version of the MP4 file with the suffix ".subs"
     new_file_path = execute_mp4box(working_dir, mp4file, srt_files)
